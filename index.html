@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather</title>
+</head>
+<body>
+  <div class="wrapp">
+    <header class="header">
+      <h1>The Super Awesome Weather App</h1>
+    </header>
+    <main class="main">
+      <div class="search">
+        <label for="city">City Name</label>
+        <input type="text" id="city">
+        <button type="button">Show Weather!</button>
+      </div>
+      <div class="load">Loading...</div>
+      <div class="weather">
+        <h1 class="weather__city">City Name</h1>
+        <div class="weather__description">Weather Description</div>
+        <div class="weather__temperature">Temperature</div>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
